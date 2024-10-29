@@ -4,12 +4,12 @@ html, body {
   align-content: center;
   text-align: center;
   color: #eee;
-  background-color: #000;
+  background-color: #e7d0f6;
 }
 
 canvas {
   display: block;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
 }
