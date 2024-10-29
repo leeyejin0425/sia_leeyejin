@@ -1,9 +1,16 @@
-function setup() {
-  createCanvas(700, 400);
+function preload() {
+  img = loadImage('asset/doggy.jpg');
+  }
   
-}
-
-function draw() {
+  function setup() {
+  createCanvas(800, 500, WEBGL);
+  }
+  
+  function draw() {
   background(255);
-  rect(200,200,100,100);
-}
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  
+  texture(img);
+  box(200);
+  }
