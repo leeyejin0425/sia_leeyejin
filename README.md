@@ -1,4 +1,4 @@
-#;,:purple_heart:
+#:EMOJICODE:,;,:purple_heart:
 
 # sia_leeyejin
 디아프로그래밍
